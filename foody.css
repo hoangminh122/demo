@@ -1,0 +1,26 @@
+
+.carousel-inner{
+    width: 100vh;
+    height: 400px;
+}
+.carousel{
+    width: 100%;
+}
+.carousel-inner{
+    width: 100%;
+}
+.tieuDe{
+    background: silver;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+img.card-img-top {
+    width: 286px;
+    height: 180px;
+}
+.input-group{
+    margin: 10px;
+}
+.panigate{
+    margin: 20px;
+}
