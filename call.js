@@ -1,8 +1,10 @@
-var person ={
-    fullName : function (firstName,b){
-        return this.firstName +" "+b;
-    }
+
+// console.log(person());
+
+person();
+
+function person(){
+    console.log("asdas");
 }
-var demo=person.fullName.call({firstName:"minh",lastName:"asd"},"ok","o");
-// var demo=person.fullName("asd","asdaasd")
-console.log(demo);
+
+    person();
