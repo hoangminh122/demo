@@ -24,3 +24,40 @@ img.card-img-top {
 .panigate{
     margin: 20px;
 }
+.w-100 {
+    height: -webkit-fill-available;
+    /* width: -webkit-fill-available; */
+}
+.nav-item{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-icon{
+    margin-bottom: 10px;
+   
+    /* position: fixed; */
+}
+.nav-pills{
+    width: 100%;
+}
+a {
+    color: #464b50;
+    
+}
+.row-2{
+margin-top: 10px;
+}
+.new{
+    float: left;
+}
+.carousel-indicators{
+    margin-top: 100px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #0080ff;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+.row.container.ustify-content-cente {
+    margin: auto;
+}
