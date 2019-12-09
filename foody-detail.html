@@ -11,9 +11,9 @@
   <link rel="stylesheet" href="foody.css">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
  
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="assets/css/animate.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/media-queries.css">
@@ -27,15 +27,15 @@
   
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
  <!-- bootstrap cdn -->
- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+ <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"> -->
  </script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"> -->
- </script>
+ <!-- </script> -->
  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"> -->
- </script>
+ <!-- </script> -->
   
-  
+ <link rel="stylesheet" href="foody-detail.css">
 </head>
 
 <body>
@@ -79,38 +79,39 @@
                         </div>
                         <div class="col-sm-7">
                             <span>TP.HCM >> Quận 10 >> Khu cực Kỳ Hòa</span>
-                            <h2>Emoji Pizza - Pizza Lò Củi</h2>
+                            <h2 style="font-family:'Times New Roman', Times, serif">Emoji Pizza - Pizza Lò Củi</h2>
                             <span>Nhà hàng-Ý- Gia đình, Nhóm hội, Giới v</span>
                             <div class="row" style="margin-bottom: 10px;">
-                                <div class="col-sm-1">9.0</div>
-                                <div class="col-sm-2">
-                                        <span class="row">8.3</span>
+                                <div class="col-sm-2" style="margin-top: 10px;"><span style="border:1px solid;
+                                border-radius: 90%;padding:10px;background:#01DF01 ;">9.0</span></div>
+                                <div class="col-sm-1">
+                                        <span class="row" style="color: #01DF01;"><b>8.3</b></span>
                                         <span class="row" style="font-size: xx-small;">Phục vụ</span>
                                 </div>
-                                <div class="col-sm-2">
-                                        <span class="row">8.3</span>
+                                <div class="col-sm-1">
+                                        <span class="row" style="color: #01DF01;"><b>8.3</b></span>
                                         <span class="row" style="font-size: xx-small;">Chất lượng</span>
                                 </div>
-                                <div class="col-sm-2">
-                                        <span class="row">8.3</span>
+                                <div class="col-sm-1">
+                                        <span class="row" style="color: #01DF01"><b>8.3</b></span>
                                         <span class="row" style="font-size: xx-small;">Không gian</span>
                                 </div>
-                                <div class="col-sm-2">
-                                        <span class="row">8.3</span>
+                                <div class="col-sm-1">
+                                        <span class="row" style="color: #01DF01;"><b>8.3</b></span>
                                         <span class="row" style="font-size: xx-small;">giá cả</span>
                                 </div>
-                                <div class="col-sm-2">
-                                    <span class="row">8.3</span>
+                                <div class="col-sm-1">
+                                    <span class="row" style="color: #01DF01;"><b>8</b></span>
                                     <span class="row" style="font-size: xx-small;">Vị trí</span>
                                 </div>
-                                <div class="col-sm-1">
+                                <div class="col-sm-5">
                                     <span class="row">20</span>
                                     <span class="row" style="font-size: xx-small;">Bình luận</span>
                                 </div>
                             </div>
-                            <span style="margin-bottom: 10px;" class="row"><a>4/1 Hoàng Dư Khương, P. 12,  Quận 10, TP. HCM</a></span>
-                            <span style="margin-bottom: 10px;" class="row"><b>Đang mở cửa </b> 10:00 - 22:00</span>
-                            <span class="row">50.000đ - 250.000đ</span>
+                            <span style="margin-bottom: 10px;" class="row"><span class="fa fa-location-arrow locationicon"></span><a>4/1 Hoàng Dư Khương, P. 12,  Quận 10, TP. HCM</a></span>
+                            <span style="margin-bottom: 10px;" class="row"><i class="fa fa-clock-o" aria-hidden="true"></i><b style="color: #01DF01;">Đang mở cửa </b> 10:00 - 22:00</span>
+                            <span class="row"><span class="fa fa-tag minmaxpriceicon"></span>50.000đ - 250.000đ</span>
 
                         </div>
                        
@@ -128,97 +129,311 @@
                         </div>
                         <div class="col-sm-10">
                                 <div class="row">
-                                    <button class="col-sm-2">Gọi điện thoại</button>
-                                    <button class="col-sm-2">Lưu vào Bộ sưu tập</button>
-                                    <button class="col-sm-2">Bình luận</button>
-                                    <button class="col-sm-2">Hình ảnh</button>
-                                    <button class="col-sm-2">Chia sẻ</button>
-                                    <button class="col-sm-2">check-in</button>
+                                    <button class="col-sm-2" style="background: #f0f2f4;border: 0.5px solid gray; color: #0b2720; font-family: initial;font-weight: 600;"><i class="fa fa-phone"></i>Gọi điện thoại</button>
+                                    <button class="col-sm-2" style="background: #f0f2f4;border: 0.5px solid gray; color: #0b2720; font-family: initial;font-weight: 600;font-size: small;">Lưu vào Bộ sưu tập</button>
+                                    <button class="col-sm-2" style="background: #f0f2f4;border: 0.5px solid gray; color: #0b2720; font-family: initial;font-weight: 600;"><i class="fa fa-comment"></i>Bình luận</button>
+                                    <button class="col-sm-2" style="background: #f0f2f4;border: 0.5px solid gray; color: #0b2720; font-family: initial;font-weight: 600;"><i class="fa fa-camera"></i>Hình ảnh</button>
+                                    <button class="col-sm-2" style="background: #f0f2f4;border: 0.5px solid gray; color: #0b2720; font-family: initial;font-weight: 600;"><i class="fa fa-share-alt"></i>Chia sẻ</button>
+                                    <button class="col-sm-2" style="background: #f0f2f4;border: 0.5px solid gray; color: #0b2720; font-family: initial;font-weight: 600;">check-in</button>
                                 </div>
                                 <div class="row" >
-                                    <img style="height: 100px;width: max-content;margin-top: 20px;" src="https://hoangyenbuffet.com/wp-content/uploads/2019/06/HYB_KhaiTruongBTP-Digital_%E1%BA%A2nh-b%C3%A0i-vi%E1%BA%BFt1080x1080.jpg"/>
+                                    <img style="height: 100px;width: max-content;margin-top: 20px;" src="http://vietnamtourism.gov.vn/images/2018/AmthucHue.jpg"/>
                                 </div>
                                 <div class="row" >
                                     <img style="height: 300px;width: max-content;margin-top: 20px;margin-bottom: 20px;" src="https://s3-ap-southeast-1.amazonaws.com/wcomvn/wp-content/uploads/2019/05/17084752/BANNER25122018004-01.jpg"/>
                                 </div>
-                                <div class="row">
+                                <div class="row" style="margin-bottom: 10px;">
                                         <span>Đặt món & Giao tận nơi</span>
                                 </div>
                                 <div class="row">
                                         <div class="col-sm-6">
-                                            <div class="row">
-                                                <div class="col-sm-2"><img src="" alt="img"> </div>
-                                                <div class="col-sm-5">Mì Lasagna </div>
-                                                <div class="col-sm-2"> </div>
-                                                <div class="col-sm-3">174,900đ</div>
+                                            <div class="row" style="margin-bottom: 10px;">
+                                                <div class="col-sm-2"><img style="width: 40px;height: 40px;" src="https://images.foody.vn/res/g70/691968/prof/s640x400/foody-mobile-4p-jpg-532-636424643520159051.jpg" alt="img"> </div>
+                                                <div class="col-sm-5" style="margin-left: -5%;"><b style="font-size: larger;">Mì Lasagna</b> </div>
+                                                <div class="col-sm-3" style="margin-left: 11%;margin-right: -6%;font-weight: 700;color: #16288c;font-size: larger;">174,900đ</div>
+                                                <div class="col-sm-2" style=""><i class="fas fa-plus" style="color: red;"></i></div>
                                             </div>
-                                            <div class="row">
-                                                    <div class="col-sm-2"><img src="" alt="img"> </div>
-                                                    <div class="col-sm-5">Mì Lasagna </div>
-                                                    <div class="col-sm-2"> </div>
-                                                    <div class="col-sm-3">174,900đ</div>
+                                            <div class="row" style="margin-bottom: 10px;">
+                                              <div class="col-sm-2"><img style="width: 40px;height: 40px;" src="https://images.foody.vn/res/g70/691968/prof/s640x400/foody-mobile-4p-jpg-532-636424643520159051.jpg" alt="img"> </div>
+                                              <div class="col-sm-5" style="margin-left: -5%;"><b style="font-size: larger;">Mì Lasagna</b> </div>
+                                              <div class="col-sm-3" style="margin-left: 11%;margin-right: -6%;font-weight: 700;color: #16288c;font-size: larger;">174,900đ</div>
+                                              <div class="col-sm-2" style=""><i class="fas fa-plus" style="color: red;"></i></div>
                                             </div>
-                                            <div class="row">
-                                                    <div class="col-sm-2"><img src="" alt="img"> </div>
-                                                    <div class="col-sm-5">Mì Lasagna </div>
-                                                    <div class="col-sm-2"> </div>
-                                                    <div class="col-sm-3">174,900đ</div>
+                                            <div class="row" style="margin-bottom: 10px;">
+                                              <div class="col-sm-2"><img style="width: 40px;height: 40px;" src="https://images.foody.vn/res/g70/691968/prof/s640x400/foody-mobile-4p-jpg-532-636424643520159051.jpg" alt="img"> </div>
+                                              <div class="col-sm-5" style="margin-left: -5%;"><b style="font-size: larger;">Mì Lasagna</b> </div>
+                                              <div class="col-sm-3" style="margin-left: 11%;margin-right: -6%;font-weight: 700;color: #16288c;font-size: larger;">174,900đ</div>
+                                              <div class="col-sm-2" style=""><i class="fas fa-plus" style="color: red;"></i></div>
                                             </div>
-                                            <div class="row">
-                                                    <div class="col-sm-2"><img src="" alt="img"> </div>
-                                                    <div class="col-sm-5">Mì Lasagna </div>
-                                                    <div class="col-sm-2"> </div>
-                                                    <div class="col-sm-3">174,900đ</div>
+                                            <div class="row" style="margin-bottom: 10px;">
+                                              <div class="col-sm-2"><img style="width: 40px;height: 40px;" src="https://images.foody.vn/res/g70/691968/prof/s640x400/foody-mobile-4p-jpg-532-636424643520159051.jpg" alt="img"> </div>
+                                              <div class="col-sm-5" style="margin-left: -5%;"><b style="font-size: larger;">Mì Lasagna</b> </div>
+                                              <div class="col-sm-3" style="margin-left: 11%;margin-right: -6%;font-weight: 700;color: #16288c;font-size: larger;">174,900đ</div>
+                                              <div class="col-sm-2" style=""><i class="fas fa-plus" style="color: red;"></i></div>
                                             </div>
-                                            <div class="row">
-                                                    <div class="col-sm-2"><img src="" alt="img"> </div>
-                                                    <div class="col-sm-5">Mì Lasagna </div>
-                                                    <div class="col-sm-2"> </div>
-                                                    <div class="col-sm-3">174,900đ</div>
+                                            <div class="row" style="margin-bottom: 10px;">
+                                              <div class="col-sm-2"><img style="width: 40px;height: 40px;" src="https://images.foody.vn/res/g70/691968/prof/s640x400/foody-mobile-4p-jpg-532-636424643520159051.jpg" alt="img"> </div>
+                                              <div class="col-sm-5" style="margin-left: -5%;"><b style="font-size: larger;">Mì Lasagna</b> </div>
+                                              <div class="col-sm-3" style="margin-left: 11%;margin-right: -6%;font-weight: 700;color: #16288c;font-size: larger;">174,900đ</div>
+                                              <div class="col-sm-2" style=""><i class="fas fa-plus" style="color: red;"></i></div>
                                             </div>
             
                                         </div>
                                         <div class="col-sm-6">
-                                                <div class="row">
-                                                    <div class="col-sm-2"><img src="" alt="img"> </div>
-                                                    <div class="col-sm-5">Mì Lasagna </div>
-                                                    <div class="col-sm-2"> </div>
-                                                    <div class="col-sm-3">174,900đ</div>
+                                                <div class="row" style="margin-bottom: 10px;">
+                                                  <div class="col-sm-2"><img style="width: 40px;height: 40px;" src="https://images.foody.vn/res/g70/691968/prof/s640x400/foody-mobile-4p-jpg-532-636424643520159051.jpg" alt="img"> </div>
+                                                  <div class="col-sm-5" style="margin-left: -5%;"><b style="font-size: larger;">Mì Lasagna</b> </div>
+                                                  <div class="col-sm-3" style="margin-left: 11%;margin-right: -6%;font-weight: 700;color: #16288c;font-size: larger;">174,900đ</div>
+                                                  <div class="col-sm-2" style=""><i class="fas fa-plus" style="color: red;"></i></div>
                                                 </div>
-                                                <div class="row">
-                                                        <div class="col-sm-2"><img src="" alt="img"> </div>
-                                                        <div class="col-sm-5">Mì Lasagna </div>
-                                                        <div class="col-sm-2"> </div>
-                                                        <div class="col-sm-3">174,900đ</div>
+                                                <div class="row" style="margin-bottom: 10px;">
+                                                  <div class="col-sm-2"><img style="width: 40px;height: 40px;" src="https://images.foody.vn/res/g70/691968/prof/s640x400/foody-mobile-4p-jpg-532-636424643520159051.jpg" alt="img"> </div>
+                                                  <div class="col-sm-5" style="margin-left: -5%;"><b style="font-size: larger;">Mì Lasagna</b> </div>
+                                                  <div class="col-sm-3" style="margin-left: 11%;margin-right: -6%;font-weight: 700;color: #16288c;font-size: larger;">174,900đ</div>
+                                                  <div class="col-sm-2" style=""><i class="fas fa-plus" style="color: red;"></i></div>
                                                 </div>
-                                                <div class="row">
-                                                        <div class="col-sm-2"><img src="" alt="img"> </div>
-                                                        <div class="col-sm-5">Mì Lasagna </div>
-                                                        <div class="col-sm-2"> </div>
-                                                        <div class="col-sm-3">174,900đ</div>
+                                                <div class="row" style="margin-bottom: 10px;">
+                                                  <div class="col-sm-2"><img style="width: 40px;height: 40px;" src="https://images.foody.vn/res/g70/691968/prof/s640x400/foody-mobile-4p-jpg-532-636424643520159051.jpg" alt="img"> </div>
+                                                  <div class="col-sm-5" style="margin-left: -5%;"><b style="font-size: larger;">Mì Lasagna</b> </div>
+                                                  <div class="col-sm-3" style="margin-left: 11%;margin-right: -6%;font-weight: 700;color: #16288c;font-size: larger;">174,900đ</div>
+                                                  <div class="col-sm-2" style=""><i class="fas fa-plus" style="color: red;"></i></div>
                                                 </div>
-                                                <div class="row">
-                                                        <div class="col-sm-2"><img src="" alt="img"> </div>
-                                                        <div class="col-sm-5">Mì Lasagna </div>
-                                                        <div class="col-sm-2"> </div>
-                                                        <div class="col-sm-3">174,900đ</div>
+                                                <div class="row" style="margin-bottom: 10px;">
+                                                  <div class="col-sm-2"><img style="width: 40px;height: 40px;" src="https://images.foody.vn/res/g70/691968/prof/s640x400/foody-mobile-4p-jpg-532-636424643520159051.jpg" alt="img"> </div>
+                                                  <div class="col-sm-5" style="margin-left: -5%;"><b style="font-size: larger;">Mì Lasagna</b> </div>
+                                                  <div class="col-sm-3" style="margin-left: 11%;margin-right: -6%;font-weight: 700;color: #16288c;font-size: larger;">174,900đ</div>
+                                                  <div class="col-sm-2" style=""><i class="fas fa-plus" style="color: red;"></i></div>
                                                 </div>
-                                                <div class="row">
-                                                        <div class="col-sm-2"><img src="" alt="img"> </div>
-                                                        <div class="col-sm-5">Mì Lasagna </div>
-                                                        <div class="col-sm-2"> </div>
-                                                        <div class="col-sm-3">174,900đ</div>
+                                                <div class="row" style="margin-bottom: 10px;">
+                                                  <div class="col-sm-2"><img style="width: 40px;height: 40px;" src="https://images.foody.vn/res/g70/691968/prof/s640x400/foody-mobile-4p-jpg-532-636424643520159051.jpg" alt="img"> </div>
+                                                  <div class="col-sm-5" style="margin-left: -5%;"><b style="font-size: larger;">Mì Lasagna</b> </div>
+                                                  <div class="col-sm-3" style="margin-left: 11%;margin-right: -6%;font-weight: 700;color: #16288c;font-size: larger;">174,900đ</div>
+                                                  <div class="col-sm-2" style=""><i class="fas fa-plus" style="color: red;"></i></div>
                                                 </div>
                 
                                         </div>
                                 </div>
-                                <button class="btn btn-info" class="row">Xem thêm & đặt giao tận nơi</button>
+                                <div class="row">
+                                  <button style="margin:auto" class="btn btn-info col-md-12">Xem thêm & đặt giao tận nơi</button>
+                                </div>
+                                <div class="container" style="margin-top: 10px;">
+                                    <span><b>Hình món ăn từ cộng đồng</b></span>
+                                  <div class="row" style="margin-bottom: 10px;">
+                                    <div class="col-sm-1"></div>
+                                    <div class="col-sm-2" style="margin-right: 10px;"><img src="https://images.foody.vn/res/g12/112158/prof/s640x400/foody-mobile-1-jpg-194-636289977329979410.jpg"/></div>
+                                    <div class="col-sm-2" style="margin-right: 10px;"><img src="https://images.foody.vn/res/g12/112158/prof/s640x400/foody-mobile-1-jpg-194-636289977329979410.jpg"/></div>
+                                    <div class="col-sm-2" style="margin-right: 10px;"><img src="https://images.foody.vn/res/g12/112158/prof/s640x400/foody-mobile-1-jpg-194-636289977329979410.jpg"/></div>
+                                    <div class="col-sm-2" style="margin-right: 10px;"><img src="https://images.foody.vn/res/g12/112158/prof/s640x400/foody-mobile-1-jpg-194-636289977329979410.jpg"/></div>
+                                    <div class="col-sm-2" style="margin-right: 10px;"><img src="https://images.foody.vn/res/g12/112158/prof/s640x400/foody-mobile-1-jpg-194-636289977329979410.jpg"/></div>
+                                    <div class="col-sm-1"></div>
+                                  </div>
+                                  <div class="row" style="margin-bottom: 10px;">
+                                      <div class="col-sm-1"></div>
+                                      <div class="col-sm-2" style="margin-right: 10px;"><img src="https://images.foody.vn/res/g12/112158/prof/s640x400/foody-mobile-1-jpg-194-636289977329979410.jpg"/></div>
+                                      <div class="col-sm-2" style="margin-right: 10px;"><img src="https://images.foody.vn/res/g12/112158/prof/s640x400/foody-mobile-1-jpg-194-636289977329979410.jpg"/></div>
+                                      <div class="col-sm-2" style="margin-right: 10px;"><img src="https://images.foody.vn/res/g12/112158/prof/s640x400/foody-mobile-1-jpg-194-636289977329979410.jpg"/></div>
+                                      <div class="col-sm-2" style="margin-right: 10px;"><img src="https://images.foody.vn/res/g12/112158/prof/s640x400/foody-mobile-1-jpg-194-636289977329979410.jpg"/></div>
+                                      <div class="col-sm-2" style="margin-right: 10px;"><img src="https://images.foody.vn/res/g12/112158/prof/s640x400/foody-mobile-1-jpg-194-636289977329979410.jpg"/></div>
+                                      <div class="col-sm-1"></div>
+                                    </div>
+                                    <div class="row" style="margin-bottom: 10px;">
+                                        <div class="col-sm-1"></div>
+                                        <div class="col-sm-2" style="margin-right: 10px;"><img src="https://images.foody.vn/res/g12/112158/prof/s640x400/foody-mobile-1-jpg-194-636289977329979410.jpg"/></div>
+                                        <div class="col-sm-2" style="margin-right: 10px;"><img src="https://images.foody.vn/res/g12/112158/prof/s640x400/foody-mobile-1-jpg-194-636289977329979410.jpg"/></div>
+                                        <div class="col-sm-2" style="margin-right: 10px;"><img src="https://images.foody.vn/res/g12/112158/prof/s640x400/foody-mobile-1-jpg-194-636289977329979410.jpg"/></div>
+                                        <div class="col-sm-2" style="margin-right: 10px;"><img src="https://images.foody.vn/res/g12/112158/prof/s640x400/foody-mobile-1-jpg-194-636289977329979410.jpg"/></div>
+                                        <div class="col-sm-2" style="margin-right: 10px;"><img src="https://images.foody.vn/res/g12/112158/prof/s640x400/foody-mobile-1-jpg-194-636289977329979410.jpg"/></div>
+                                        <div class="col-sm-1"></div>
+                                      </div>
+                                </div>
+                                <span style="margin-top: 10px;margin-bottom: 10px;"><b>Albums</b></span>
+                                <div class="row">
+                                  
+                                    <div class="col-sm-2">
+                                      <div class="row">
+                                        <img src="https://foodyvn.files.wordpress.com/2012/08/mof-172.jpg?w=800&h=532&crop=1" />
+                                      </div>
+                                      <div class="row"><b>Video</b></div>
+                                      <div class="row">2 video</div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                      <div class="row">
+                                      <img src="https://foodyvn.files.wordpress.com/2012/08/mof-172.jpg?w=800&h=532&crop=1" />
+                                      </div>
+                                      <div class="row"><b>Không gian</b></div>
+                                      <div class="row">2 ảnh</div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                      <div class="row">
+                                      <img src="https://foodyvn.files.wordpress.com/2012/08/mof-172.jpg?w=800&h=532&crop=1" />
+                                      </div>
+                                      <div class="row"><b>Món ăn</b></div>
+                                      <div class="row">5 ảnh</div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                      <div class="row">
+                                      <img src="https://foodyvn.files.wordpress.com/2012/08/mof-172.jpg?w=800&h=532&crop=1" />
+                                      </div>
+                                      <div class="row"><b>Thực đơn</b></div>
+                                      <div class="row">2 ảnh</div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                      <div class="row">
+                                      <img src="https://foodyvn.files.wordpress.com/2012/08/mof-172.jpg?w=800&h=532&crop=1" />
+                                      </div>
+                                      <div class="row"><b>Tổng hợp</b></div>
+                                      <div class="row">33 ảnh video</div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                      <div class="row">
+                                      <img src="https://foodyvn.files.wordpress.com/2012/08/mof-172.jpg?w=800&h=532&crop=1" />
+                                      </div>
+                                      <div class="row"><b>Professional</b></div>
+                                      <div class="row">2 ảnh</div>
+                                    </div>
+                                    
+                                    
+                                </div>
+                                <div class="row" style=" margin-top: 39px;">
+                                  <div class="col-sm-9">
+                                    <div class="container" style="background: #fcfcfc;">
+                                    <div class="row" style="width: 100%;">
+                                      <div class="col-sm-2"><img src="./assets/img/gai-xinh-vn.jpg" style="width: 50px;height:50px;border-radius: 90%;"/></div>
+                                      <div class="col-sm-8">
+
+                                        <div class="row" style="font-size: larger;"><b>Tâm anh</b></div>
+                                        <div class="row" style="font-size: small;"><b>via Iphone</b> 31/8/2019 16:37</div>
+                                      </div>
+                                      <div class="col-sm-2"><img src=""/></div>
+                                    </div>
+                                    <hr/>
+                                    <br/>
+                                   
+                                    <div class="row" style="margin-bottom: 20px;"><b><a>Hot trend sữa trân châu đường đen</a></b></div>
+                                    <div class="row">
+                                        Uống nhiều quán rồi, nay thử ở Pi, sữa ngon, tc đường đen ngon, nhưng nhìn ly xem, mình lấy k đá và kết quả là nứơc cực kỳ ít, hơn 2/3 là đá nếu muốn đầy ly :))), k hiểu là mua nứơc kèm đá hay mua đá được tặng nứơc nữa ))), nhiêu đây hút 3 hơi là hết nứơc, đá tràn ly :))).<br/><br/>
+                                        Thêm nữa, ly này k có whipping cream sao để nắp này, k biết quán có máy ép nhựa phần nắp hay nắp bằng kín k, nắp vung lên, hở lỗ tròn ở giữađi đường mà sợ đổ với cái gì rớt vô @@.<br/>
+                                        Ly này bình thường 35k, hôm nay đang kmai nên còn 25k.<br/><br/>
+                                        Quán trang trí đẹp, rộng, nhân viên cũng ok.
+                                        <br/>
+                                       <a style="color: #16288c;">Xem them</a> 
+                                    </div>
+
+                                    <div class="row" style="">Số người: 2 | Chi phí: 50,000đ | Sẽ quay lại: Có thể</div>
+                                    <div class="row" style="color: #9c9794;">- Đây là nhận xét từ Thành Viên trên Foody, không phải từ Foody Corp. -</div>
+                                    <div class="row" style=""><img src="http://bepvang.org.vn/Userfiles/Upload/images/Download/2017/6/16/df954314f55d4a6eb75dad29c714b549.jpg"/></div>
+                                    <div class="row" style="width: 100%;">
+                                      <div class="col-sm-2"><i class="fa fa-heart" aria-hidden="true"></i>  <span style="font-size: small;">Thích</span></div>
+                                      <div class="col-sm-2"> <i class="fa fa-comment" aria-hidden="true"></i> <span style="font-size: small;">Thảo luận</span></div>
+                                      <div class="col-sm-2"> <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <span style="font-size: small;">Báo lỗi</span></div>
+                                    </div>
+                                    <div class="row" style="width: 100%;" >
+                                      <div class="col-sm-2"><img src="./assets/img/gai-xinh-vn.jpg" style="width: 50px;height:50px;border-radius: 50%;"/></div>
+                                      <div class="col-sm-10" style="width: 110%;"><input style="width: 110%;margin-left: -7%;margin-top: 2%;" type="text" value="Thảo luận"/></div>
+                                    </div>
+                                    <br/>
+                                    </div>
+                                  
+                                  
+                                    <div class="container" style="background: #fcfcfc;">
+                                        <div class="row" style="width: 100%;margin-top: 10%;">
+                                          <div class="col-sm-2"><img src="./assets/img/gai-xinh-vn.jpg" style="width: 50px;height:50px;border-radius: 90%;"/></div>
+                                          <div class="col-sm-8">
+    
+                                            <div class="row" style="font-size: larger;"><b>Tâm anh</b></div>
+                                            <div class="row" style="font-size: small;"><b>via Iphone</b> 31/8/2019 16:37</div>
+                                          </div>
+                                          <div class="col-sm-2"><img src=""/></div>
+                                        </div>
+                                        <hr/>
+                                        <br/>
+                                      
+                                        <div class="row" style="margin-bottom: 20px;"><b><a>Hot trend sữa trân châu đường đen</a></b></div>
+                                        <div class="row">
+                                            Uống nhiều quán rồi, nay thử ở Pi, sữa ngon, tc đường đen ngon, nhưng nhìn ly xem, mình lấy k đá và kết quả là nứơc cực kỳ ít, hơn 2/3 là đá nếu muốn đầy ly :))), k hiểu là mua nứơc kèm đá hay mua đá được tặng nứơc nữa ))), nhiêu đây hút 3 hơi là hết nứơc, đá tràn ly :))).<br/><br/>
+                                            Thêm nữa, ly này k có whipping cream sao để nắp này, k biết quán có máy ép nhựa phần nắp hay nắp bằng kín k, nắp vung lên, hở lỗ tròn ở giữađi đường mà sợ đổ với cái gì rớt vô @@.<br/>
+                                            Ly này bình thường 35k, hôm nay đang kmai nên còn 25k.<br/><br/>
+                                            Quán trang trí đẹp, rộng, nhân viên cũng ok.
+                                            <br/>
+                                           <a style="color: #16288c;">Xem them</a> 
+                                        </div>
+    
+                                        <div class="row" style="">Số người: 2 | Chi phí: 50,000đ | Sẽ quay lại: Có thể</div>
+                                        <div class="row" style="color: #9c9794;">- Đây là nhận xét từ Thành Viên trên Foody, không phải từ Foody Corp. -</div>
+                                        <div class="row" style=""><img src="http://bepvang.org.vn/Userfiles/Upload/images/Download/2017/6/16/df954314f55d4a6eb75dad29c714b549.jpg"/></div>
+                                        <div class="row" style="width: 100%;">
+                                          <div class="col-sm-2"><i class="fa fa-heart" aria-hidden="true"></i>  <span style="font-size: small;">Thích</span></div>
+                                          <div class="col-sm-2"> <i class="fa fa-comment" aria-hidden="true"></i> <span style="font-size: small;">Thảo luận</span></div>
+                                          <div class="col-sm-2"> <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <span style="font-size: small;">Báo lỗi</span></div>
+                                        </div>
+                                        <div class="row" style="width: 100%;" >
+                                          <div class="col-sm-2"><img src="./assets/img/gai-xinh-vn.jpg" style="width: 50px;height:50px;border-radius: 50%;"/></div>
+                                          <div class="col-sm-10" style="width: 110%;"><input style="width: 110%;margin-left: -7%;margin-top: 2%;" type="text" value="Thảo luận"/></div>
+                                        </div>
+                                        <br/>
+                                        </div>
+                                      
+                                        <div class="container" style="background: #fcfcfc;">
+                                            <div class="row" style="width: 100%;margin-top: 10%;">
+                                              <div class="col-sm-2"><img src="./assets/img/gai-xinh-vn.jpg" style="width: 50px;height:50px;border-radius: 90%;"/></div>
+                                              <div class="col-sm-8">
+        
+                                                <div class="row" style="font-size: larger;"><b>Tâm anh</b></div>
+                                                <div class="row" style="font-size: small;"><b>via Iphone</b> 31/8/2019 16:37</div>
+                                              </div>
+                                              <div class="col-sm-2"><img src=""/></div>
+                                            </div>
+                                            <hr/>
+                                            <br/>
+                                           
+                                            <div class="row" style="margin-bottom: 20px;"><b><a>Hot trend sữa trân châu đường đen</a></b></div>
+                                            <div class="row" style="">
+                                                Uống nhiều quán rồi, nay thử ở Pi, sữa ngon, tc đường đen ngon, nhưng nhìn ly xem, mình lấy k đá và kết quả là nứơc cực kỳ ít, hơn 2/3 là đá nếu muốn đầy ly :))), k hiểu là mua nứơc kèm đá hay mua đá được tặng nứơc nữa ))), nhiêu đây hút 3 hơi là hết nứơc, đá tràn ly :))).<br/><br/>
+                                                Thêm nữa, ly này k có whipping cream sao để nắp này, k biết quán có máy ép nhựa phần nắp hay nắp bằng kín k, nắp vung lên, hở lỗ tròn ở giữađi đường mà sợ đổ với cái gì rớt vô @@.<br/>
+                                                Ly này bình thường 35k, hôm nay đang kmai nên còn 25k.<br/><br/>
+                                                Quán trang trí đẹp, rộng, nhân viên cũng ok.
+                                                <br/>
+                                               <a style="color: #16288c;">Xem them</a> 
+                                            </div>
+        
+                                            <div class="row" style="">Số người: 2 | Chi phí: 50,000đ | Sẽ quay lại: Có thể</div>
+                                            <div class="row" style="color: #9c9794;">- Đây là nhận xét từ Thành Viên trên Foody, không phải từ Foody Corp. -</div>
+                                            <div class="row"><img src="http://bepvang.org.vn/Userfiles/Upload/images/Download/2017/6/16/df954314f55d4a6eb75dad29c714b549.jpg"/></div>
+                                            <div class="row" style="width: 100%;">
+                                              <div class="col-sm-2"><i class="fa fa-heart" aria-hidden="true"></i>  <span style="font-size: small;">Thích</span></div>
+                                              <div class="col-sm-2"> <i class="fa fa-comment" aria-hidden="true"></i> <span style="font-size: small;">Thảo luận</span></div>
+                                              <div class="col-sm-2"> <i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <span style="font-size: small;">Báo lỗi</span></div>
+                                            </div>
+                                            <div class="row" style="width: 100%;" >
+                                              <div class="col-sm-2"><img src="./assets/img/gai-xinh-vn.jpg" style="width: 50px;height:50px;border-radius: 50%;"/></div>
+                                              <div class="col-sm-10" style="width: 110%;"><input style="width: 110%;margin-left: -7%;margin-top: 2%;" type="text" value="Thảo luận"/></div>
+                                            </div>
+                                            <br/>
+                                            </div>
+                                          
+                                  </div>
+                                  <div class="col-sm-3" style="background: #fcfcfc;">
+                                    <div class="row" style="margin: auto;"> <span><b>10</b></span> bình luận đã chia sẻ </div>
+                                    <br/>
+                                    <div class="row" style="margin: auto;    margin-left: 30%;"> <span><b>1</b></span> Tuyệt vời</div>
+                                    <div class="row" style="margin: auto;    margin-left: 30%;"> <span><b>2</b></span> Khá tốt</div>
+                                    <div class="row" style="margin: auto;    margin-left: 30%;"> <span><b>1</b></span> Trung bình</div>
+                                    <div class="row" style="margin: auto;    margin-left: 30%;"> <span><b>1</b></span> Kém</div>
+                                    <br/>
+                                    <div class="row" style="color: red;">chưa làm xong</div>
+                                    <div class="row"> <a class="btn btn-info" style="width: 100%;">Viết bình luận</a></div>
+                                   
+                                  </div>
+                                 
+                                </div>
+
                                     
                         </div>
                     </div>
+                    
                 </div>
                
-                <div class="container">
+                <div class="container" style="margin-top: 10px;">
                   <div class="row">
                     <div class="col-sm-1">
                         <img src="./assets/img/gai-xinh-vn.jpg" style="width: 50px;height:50px;border-radius: 50%;"/>
@@ -238,6 +453,7 @@
                       </div>
                   </div>
                 </div>
+               
                 <div class="container">
                   <div class="row" style="width: max-content; margin: auto;margin-top: 20px;">
                       <span>Tìm địa điểm trên đường đi ? Tải app Foody !</span>
@@ -297,7 +513,7 @@
 
     </div>
     <!-- Footer -->
-    <footer>
+    <footer style="    background: aliceblue;">
       <div class="footer-top">
         <div class="container-fluid">
           <div class="row">
@@ -356,18 +572,15 @@
     </footer>
 
     <!-- Javascript -->
-    <script src="assets/js/jquery-3.2.1.min.js"></script>
-    <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
-    <script src="assets/js/jquery.backstretch.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/retina-1.1.0.min.js"></script>
-    <script src="assets/js/scripts.js"></script>
+    <!-- <script src="assets/js/jquery-3.2.1.min.js"></script> -->
+    <!-- <script src="assets/js/jquery-migrate-3.0.0.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
+    <!-- <script src="assets/js/jquery.backstretch.min.js"></script> -->
+    <!-- <script src="assets/js/wow.min.js"></script> -->
+    <!-- <script src="assets/js/retina-1.1.0.min.js"></script> -->
+
+    <!-- <script src="assets/js/scripts.js"></script> -->
    
 </body>
 
