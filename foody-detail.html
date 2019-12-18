@@ -43,69 +43,102 @@
 </head>
 
 <body>
-  <div class="container-fluid">
+  <div class="container-fluid py-0 px-0" style="background-color: #eee;">
     <div class="row">
-      <section class="container-fluid py-4">
-        <div class="row">
-          <div class="col-md-12">
+      <section class="container-fluid py-0 px-0">
+          <div class="row" style="background-color: #333; height: 65px;">
+          </div>
+          <div class="row" style="background-color: #333;">
+            <div class="container">
+              <ul id="tabsJustified" class="nav nav-tabs">
+                <li class="nav-item"><a href="" data-target="#khamPha" data-toggle="tab"
+                    class="nav-link small text-uppercase active">Khám Phá </a></li>
+                <li class="nav-item"><a href="" data-target="#datBan" data-toggle="tab"
+                    class="nav-link small text-uppercase ">Đặt Bàn</a></li>
+                <li class="nav-item"><a href="" data-target="#datGiaoHang" data-toggle="tab"
+                    class="nav-link small text-uppercase">Đặt Giao Hàng</a></li>
 
-            <ul id="tabsJustified" class="nav nav-tabs">
-              <li class="nav-item"><a href="" data-target="#khamPha" data-toggle="tab"
-                  class="nav-link small text-uppercase active">Khám Phá </a></li>
-              <li class="nav-item"><a href="" data-target="#datBan" data-toggle="tab"
-                  class="nav-link small text-uppercase ">Đặt Bàn</a></li>
-              <li class="nav-item"><a href="" data-target="#datGiaoHang" data-toggle="tab"
-                  class="nav-link small text-uppercase">Đặt Giao Hàng</a></li>
-
-            </ul>
+              </ul>
+            </div>
+          </div>
             <br>
             <div id="tabsJustifiedContent" class="tab-content">
               <div id="khamPha" class="tab-pane fade  active show">
-                <div class="row nav-icon header-toolbar fixed">
-                  <div class="col-sm-2 bg-light"><img src="https://www.foody.vn/style/images/logo/foody-vn.png"/></div>
-                  <div class="col-sm-8">
-                    <nav class="navbar navbar-light">
-                      <form class="form-inline d-flex dropdown" style="width: 100%;">
-                        <input class="form-control mr-sm-2 col-sm-7" type="search" placeholder="Search" aria-label="Search" data-toggle="dropdown">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1" style="width: 80%;">
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">
-                              <div class="row" style="max-width: 70%;">
-                                <div class="col-sm-2">
-                                  <img src="https://img.buzzfeed.com/thumbnailer-prod-us-east-1/dc23cd051d2249a5903d25faf8eeee4c/BFV36537_CC2017_2IngredintDough4Ways-FB.jpg"/>
+                
+                <div class="nav-icon header-toolbar container fixed">
+                  <div class="" style="">
+                    <div class="" style="margin: auto;float: left;"><img src="./assets/img/foody-vn.png" style="margin-top: 10%;"/></div>
+                    <div class="nav-item dropdown col-sm-1" style="float: left;margin-right: 0%;">
+                      <button style="width: max-content;margin-right: 19px;font-size: xx-small;margin-top: 15%;color: #777;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        TP.HCM
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                    <div class="nav-item dropdown col-sm-1" style="float: left;margin-right: 0%;">
+                      <button style="font-size: xx-small;margin-top: 15%;width: max-content;color: #777;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Ăn Uống
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                    <div class="" style="float: left;">
+                      <nav class="navbar navbar-light">
+                        <form class="form-inline d-flex dropdown" style="width: 100%;margin-top: -2%;;">
+                          <input class="form-control col-sm-9" type="search" placeholder="Search" aria-label="Search" data-toggle="dropdown">
+                          <button class="btn btn-outline-success  col-sm-3" type="submit">Search</button>
+                          <ul class="dropdown-menu" role="menu" aria-labelledby="menu1" style="width: 80%;">
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">
+                                <div class="row" style="max-width: 70%;">
+                                  <div class="col-sm-2">
+                                    <img src="https://img.buzzfeed.com/thumbnailer-prod-us-east-1/dc23cd051d2249a5903d25faf8eeee4c/BFV36537_CC2017_2IngredintDough4Ways-FB.jpg"/>
+                                  </div>
+                                  <div class="col-sm-10">
+                                    <div class="row">
+                                      <span>Emoji Pizza - Pizza Lò Củi</span>
+                                    </div>
+                                    <div class="row">
+                                      <span style="font-weight: 100; color: #ced4da;">Giam giá 20% khi đặt hàng qua TabbleNow</span>
+                                    </div>
+                                    <div>
+  
+                                    </div>
+                                  </div>
                                 </div>
-                                <div class="col-sm-10">
-                                  <div class="row">
-                                    <span>Emoji Pizza - Pizza Lò Củi</span>
-                                  </div>
-                                  <div class="row">
-                                    <span style="font-weight: 100; color: #ced4da;">Giam giá 20% khi đặt hàng qua TabbleNow</span>
-                                  </div>
-                                  <div>
+                              </a></li>
+                              <div class="dropdown-divider"></div>
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">XXX</a></li>
+                              <div class="dropdown-divider"></div>
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="#">XXX</a></li>
+                          </ul>
+                        </form>
+                      </nav>
+                    </div>
+                    <div class style="float: left"><button style="margin-top: 15%;margin-right: 5%;color: #777;" >111</button></div>
+                    <div class style="float: left"><button style="margin-top: 15%;margin-right: 5%;color: #777;" >111</button></div>
+                    <div class="" style="float: right;"><button>xx</button></div>
+                    <div class="" style="float: right;"><button>xx</button></div>
+                    <div class="" style="float: right;"><button>xx</button></div>
+                    <div class="" style="float: right;margin-top: 1%;margin-right: 1%;"><a  style="margin-top:1%;;color: #777;">Login</a></div>
 
-                                  </div>
-                                </div>
-                              </div>
-                            </a></li>
-                            <div class="dropdown-divider"></div>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">XXX</a></li>
-                            <div class="dropdown-divider"></div>
-                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">XXX</a></li>
-                        </ul>
-                      </form>
-                    </nav>
                   </div>
-                  <div><a class="col-sm-2">Login</a></div>
-
                 </div>
-
+                <p style=" clear: both;"></p>
                
                 <div class="container" style="margin-top: 20px;">
                     <div class="row" style="margin-bottom: 20px;">
                         <div class="col-sm-5">
                         <img style="height: 300px;" src="https://c2.staticflickr.com/4/3864/14655009889_4201b3de68_h.jpg"/>
                         </div>
-                        <div class="col-sm-7">
+                        <div class="col-sm-7" style="background-color: white;">
                             <span>TP.HCM >> Quận 10 >> Khu cực Kỳ Hòa</span>
                             <h2 style="font-family:'Times New Roman', Times, serif">Emoji Pizza - Pizza Lò Củi</h2>
                             <span>Nhà hàng-Ý- Gia đình, Nhóm hội, Giới v</span>
@@ -158,53 +191,53 @@
                         <div class="col-sm-10">
                                 <div class="row">
                                   
-                                    <button class="col-sm-2" type="button" style="background: #f0f2f4;border: 0.5px solid gray; color: #0b2720; font-family: initial;font-weight: 600;"><i class="fa fa-phone"></i>Gọi điện thoại</button>
-                                    <button class="col-sm-2" type="button" style="background: #f0f2f4;border: 0.5px solid gray; color: #0b2720; font-family: initial;font-weight: 600;font-size: small;"  data-toggle="modal" data-target="#saveModalCenter">Lưu vào Bộ sưu tập</button>
-                                    <button class="col-sm-2" style="background: #f0f2f4;border: 0.5px solid gray; color: #0b2720; font-family: initial;font-weight: 600;"><i class="fa fa-comment"></i>Bình luận</button>
-                                    <button class="col-sm-2" style="background: #f0f2f4;border: 0.5px solid gray; color: #0b2720; font-family: initial;font-weight: 600;"><i class="fa fa-camera"></i>Hình ảnh</button>
-                                    <button class="col-sm-2" style="background: #f0f2f4;border: 0.5px solid gray; color: #0b2720; font-family: initial;font-weight: 600;"><i class="fa fa-share-alt"></i>Chia sẻ</button>
-                                    <button class="col-sm-2" style="background: #f0f2f4;border: 0.5px solid gray; color: #0b2720; font-family: initial;font-weight: 600;">check-in</button>
+                                    <button class="col-sm-2" type="button" style="background: #fff;border: 0.5px solid gray; color: #005d80; font-family: initial;font-weight: 600;"><i class="fa fa-phone"></i>Gọi điện thoại</button>
+                                    <button class="col-sm-2" type="button" style="background: #fff;border: 0.5px solid gray; color: #005d80; font-family: initial;font-weight: 600;font-size: small;"  data-toggle="modal" data-target="#saveModalCenter">Lưu vào Bộ sưu tập</button>
+                                    <button class="col-sm-2" style="background: #f0f2f4;border: 0.5px solid gray; color: #005d80; font-family: initial;font-weight: 600;"><i class="fa fa-comment"></i>Bình luận</button>
+                                    <button class="col-sm-2" style="background: #f0f2f4;border: 0.5px solid gray; color: #005d80; font-family: initial;font-weight: 600;"><i class="fa fa-camera"></i>Hình ảnh</button>
+                                    <button class="col-sm-2" style="background: #f0f2f4;border: 0.5px solid gray; color: #005d80; font-family: initial;font-weight: 600;"><i class="fa fa-share-alt"></i>Chia sẻ</button>
+                                    <button class="col-sm-2" style="background: #f0f2f4;border: 0.5px solid gray; color: #005d80; font-family: initial;font-weight: 600;">check-in</button>
                                 </div>
                                 <div class="row" >
-                                    <img style="height: 100px;width: max-content;margin-top: 20px;" src="http://vietnamtourism.gov.vn/images/2018/AmthucHue.jpg"/>
+                                    <img style="height: 100px;width: max-content;margin-top: 20px;" src="https://www.tiendauroi.com/uploads/default/original/2X/8/8713c9ebd50b42f7922118dcccbfc2624fb91cb5.jpeg"/>
                                 </div>
                                 <div class="row" >
                                     <img style="height: 300px;width: max-content;margin-top: 20px;margin-bottom: 20px;" src="https://s3-ap-southeast-1.amazonaws.com/wcomvn/wp-content/uploads/2019/05/17084752/BANNER25122018004-01.jpg"/>
                                 </div>
-                                <div class="row" style="margin-bottom: 10px;">
-                                        <span>Đặt món & Giao tận nơi</span>
+                                <div class="row" style="margin-bottom: 10px;border-bottom: 1px solid #9E9E9E; background-color: #fff;">
+                                        <span style="font-size: larger;font-weight: 700;margin-left: 1%;">Đặt món & Giao tận nơi</span st>
                                 </div>
-                                <div class="row">
+                                <div class="row" style="background-color: #fff;">
                                         <div class="col-sm-6">
                                             <div class="row" style="margin-bottom: 10px;">
                                                 <div class="col-sm-2"><img style="width: 40px;height: 40px;" src="https://images.foody.vn/res/g70/691968/prof/s640x400/foody-mobile-4p-jpg-532-636424643520159051.jpg" alt="img"> </div>
                                                 <div class="col-sm-5" style="margin-left: -5%;"><b style="font-size: larger;">Mì Lasagna</b> </div>
                                                 <div class="col-sm-3" style="margin-left: 11%;margin-right: -6%;font-weight: 700;color: #16288c;font-size: larger;">174,900đ</div>
-                                                <div class="col-sm-2" style=""><i class="fas fa-plus" style="color: red;"></i></div>
+                                                <div class="col-sm-2" style=""><i class="fas fa-plus" style="background-color: red;color: white;padding: 5px;"></i></div>
                                             </div>
                                             <div class="row" style="margin-bottom: 10px;">
                                               <div class="col-sm-2"><img style="width: 40px;height: 40px;" src="https://images.foody.vn/res/g70/691968/prof/s640x400/foody-mobile-4p-jpg-532-636424643520159051.jpg" alt="img"> </div>
                                               <div class="col-sm-5" style="margin-left: -5%;"><b style="font-size: larger;">Mì Lasagna</b> </div>
                                               <div class="col-sm-3" style="margin-left: 11%;margin-right: -6%;font-weight: 700;color: #16288c;font-size: larger;">174,900đ</div>
-                                              <div class="col-sm-2" style=""><i class="fas fa-plus" style="color: red;"></i></div>
+                                              <div class="col-sm-2" style=""><i class="fas fa-plus" style="background-color: red;color: white;padding: 5px;"></i></div>
                                             </div>
                                             <div class="row" style="margin-bottom: 10px;">
                                               <div class="col-sm-2"><img style="width: 40px;height: 40px;" src="https://images.foody.vn/res/g70/691968/prof/s640x400/foody-mobile-4p-jpg-532-636424643520159051.jpg" alt="img"> </div>
                                               <div class="col-sm-5" style="margin-left: -5%;"><b style="font-size: larger;">Mì Lasagna</b> </div>
                                               <div class="col-sm-3" style="margin-left: 11%;margin-right: -6%;font-weight: 700;color: #16288c;font-size: larger;">174,900đ</div>
-                                              <div class="col-sm-2" style=""><i class="fas fa-plus" style="color: red;"></i></div>
+                                              <div class="col-sm-2" style=""><i class="fas fa-plus" style="background-color: red;color: white;padding: 5px;"></i></div>
                                             </div>
                                             <div class="row" style="margin-bottom: 10px;">
                                               <div class="col-sm-2"><img style="width: 40px;height: 40px;" src="https://images.foody.vn/res/g70/691968/prof/s640x400/foody-mobile-4p-jpg-532-636424643520159051.jpg" alt="img"> </div>
                                               <div class="col-sm-5" style="margin-left: -5%;"><b style="font-size: larger;">Mì Lasagna</b> </div>
                                               <div class="col-sm-3" style="margin-left: 11%;margin-right: -6%;font-weight: 700;color: #16288c;font-size: larger;">174,900đ</div>
-                                              <div class="col-sm-2" style=""><i class="fas fa-plus" style="color: red;"></i></div>
+                                              <div class="col-sm-2" style=""><i class="fas fa-plus" style="background-color: red;color: white;padding: 5px;"></i></div>
                                             </div>
                                             <div class="row" style="margin-bottom: 10px;">
                                               <div class="col-sm-2"><img style="width: 40px;height: 40px;" src="https://images.foody.vn/res/g70/691968/prof/s640x400/foody-mobile-4p-jpg-532-636424643520159051.jpg" alt="img"> </div>
                                               <div class="col-sm-5" style="margin-left: -5%;"><b style="font-size: larger;">Mì Lasagna</b> </div>
                                               <div class="col-sm-3" style="margin-left: 11%;margin-right: -6%;font-weight: 700;color: #16288c;font-size: larger;">174,900đ</div>
-                                              <div class="col-sm-2" style=""><i class="fas fa-plus" style="color: red;"></i></div>
+                                              <div class="col-sm-2" style=""><i class="fas fa-plus" style="background-color: red;color: white;padding: 5px;"></i></div>
                                             </div>
             
                                         </div>
@@ -213,39 +246,39 @@
                                                   <div class="col-sm-2"><img style="width: 40px;height: 40px;" src="https://images.foody.vn/res/g70/691968/prof/s640x400/foody-mobile-4p-jpg-532-636424643520159051.jpg" alt="img"> </div>
                                                   <div class="col-sm-5" style="margin-left: -5%;"><b style="font-size: larger;">Mì Lasagna</b> </div>
                                                   <div class="col-sm-3" style="margin-left: 11%;margin-right: -6%;font-weight: 700;color: #16288c;font-size: larger;">174,900đ</div>
-                                                  <div class="col-sm-2" style=""><i class="fas fa-plus" style="color: red;"></i></div>
+                                                  <div class="col-sm-2" style=""><i class="fas fa-plus" style="background-color: red;color: white;padding: 5px;"></i></div>
                                                 </div>
                                                 <div class="row" style="margin-bottom: 10px;">
                                                   <div class="col-sm-2"><img style="width: 40px;height: 40px;" src="https://images.foody.vn/res/g70/691968/prof/s640x400/foody-mobile-4p-jpg-532-636424643520159051.jpg" alt="img"> </div>
                                                   <div class="col-sm-5" style="margin-left: -5%;"><b style="font-size: larger;">Mì Lasagna</b> </div>
                                                   <div class="col-sm-3" style="margin-left: 11%;margin-right: -6%;font-weight: 700;color: #16288c;font-size: larger;">174,900đ</div>
-                                                  <div class="col-sm-2" style=""><i class="fas fa-plus" style="color: red;"></i></div>
+                                                  <div class="col-sm-2" style=""><i class="fas fa-plus" style="background-color: red;color: white;padding: 5px;"></i></div>
                                                 </div>
                                                 <div class="row" style="margin-bottom: 10px;">
                                                   <div class="col-sm-2"><img style="width: 40px;height: 40px;" src="https://images.foody.vn/res/g70/691968/prof/s640x400/foody-mobile-4p-jpg-532-636424643520159051.jpg" alt="img"> </div>
                                                   <div class="col-sm-5" style="margin-left: -5%;"><b style="font-size: larger;">Mì Lasagna</b> </div>
                                                   <div class="col-sm-3" style="margin-left: 11%;margin-right: -6%;font-weight: 700;color: #16288c;font-size: larger;">174,900đ</div>
-                                                  <div class="col-sm-2" style=""><i class="fas fa-plus" style="color: red;"></i></div>
+                                                  <div class="col-sm-2" style=""><i class="fas fa-plus" style="background-color: red;color: white;padding: 5px;"></i></div>
                                                 </div>
                                                 <div class="row" style="margin-bottom: 10px;">
                                                   <div class="col-sm-2"><img style="width: 40px;height: 40px;" src="https://images.foody.vn/res/g70/691968/prof/s640x400/foody-mobile-4p-jpg-532-636424643520159051.jpg" alt="img"> </div>
                                                   <div class="col-sm-5" style="margin-left: -5%;"><b style="font-size: larger;">Mì Lasagna</b> </div>
                                                   <div class="col-sm-3" style="margin-left: 11%;margin-right: -6%;font-weight: 700;color: #16288c;font-size: larger;">174,900đ</div>
-                                                  <div class="col-sm-2" style=""><i class="fas fa-plus" style="color: red;"></i></div>
+                                                  <div class="col-sm-2" style=""><i class="fas fa-plus" style="background-color: red;color: white;padding: 5px;"></i></div>
                                                 </div>
                                                 <div class="row" style="margin-bottom: 10px;">
                                                   <div class="col-sm-2"><img style="width: 40px;height: 40px;" src="https://images.foody.vn/res/g70/691968/prof/s640x400/foody-mobile-4p-jpg-532-636424643520159051.jpg" alt="img"> </div>
                                                   <div class="col-sm-5" style="margin-left: -5%;"><b style="font-size: larger;">Mì Lasagna</b> </div>
                                                   <div class="col-sm-3" style="margin-left: 11%;margin-right: -6%;font-weight: 700;color: #16288c;font-size: larger;">174,900đ</div>
-                                                  <div class="col-sm-2" style=""><i class="fas fa-plus" style="color: red;"></i></div>
+                                                  <div class="col-sm-2" style=""><i class="fas fa-plus" style="background-color: red;color: white;padding: 5px;"></i></div>
                                                 </div>
                 
                                         </div>
                                 </div>
                                 <div class="row">
-                                  <button style="margin:auto" class="btn btn-info col-md-12">Xem thêm & đặt giao tận nơi</button>
+                                  <button style="margin:auto" class="btn btn-info col-md-12" style="background-color: #049ec5;">Xem thêm & đặt giao tận nơi</button>
                                 </div>
-                                <div class="container" style="margin-top: 10px;">
+                                <div class="row" style="margin-top: 10px;background-color: white;">
                                     <span><b>Hình món ăn từ cộng đồng</b></span>
                                   <div class="row" style="margin-bottom: 10px;">
                                     <div class="col-sm-1"></div>
@@ -273,18 +306,19 @@
                                         <div class="col-sm-2" style="margin-right: 10px;"><img src="https://images.foody.vn/res/g12/112158/prof/s640x400/foody-mobile-1-jpg-194-636289977329979410.jpg"/></div>
                                         <div class="col-sm-2" style="margin-right: 10px;"><img src="https://images.foody.vn/res/g12/112158/prof/s640x400/foody-mobile-1-jpg-194-636289977329979410.jpg"/></div>
                                         <div class="col-sm-1"></div>
-                                      </div>
-                                </div>
-                                <span style="margin-top: 10px;margin-bottom: 10px;"><b>Albums</b></span>
+                                    </div>
+
+                                    <span style="margin-top: 10px;margin-bottom: 10px;"><b>Albums</b></span>
                                 <div class="row">
                                   
-                                    <div class="col-sm-2">
+                                    <!-- <div class="col-sm-2">
                                       <div class="row">
                                         <img src="https://foodyvn.files.wordpress.com/2012/08/mof-172.jpg?w=800&h=532&crop=1" />
                                       </div>
                                       <div class="row"><b>Video</b></div>
                                       <div class="row">2 video</div>
-                                    </div>
+                                    </div> -->
+                                    <div class="col-sm-1"></div>
                                     <div class="col-sm-2">
                                       <div class="row">
                                       <img src="https://foodyvn.files.wordpress.com/2012/08/mof-172.jpg?w=800&h=532&crop=1" />
@@ -320,9 +354,12 @@
                                       <div class="row"><b>Professional</b></div>
                                       <div class="row">2 ảnh</div>
                                     </div>
+                                    <div class="col-sm-1"></div>
                                     
                                     
                                 </div>
+                                </div>
+                                
                                 <div class="row" style=" margin-top: 39px;">
                                   <div class="col-sm-9">
                                     <div class="container" style="background: #fcfcfc;">
